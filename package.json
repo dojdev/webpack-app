@@ -5,9 +5,14 @@
   "author": "«Alexey»",
   "license": "MIT",
   "scripts": {
-    "start": "webpack"
+    "start": "webpack --watch",
+    "serve": "static build"
   },
   "devDependencies": {
     "webpack": "^2.5.0"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^2.28.0",
+    "node-static": "^0.7.9"
   }
 }
